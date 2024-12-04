@@ -1,0 +1,4 @@
+# Modulos
+/node_modules
+# Para instalar de nuevo los módulos en otro archivo posterior a clonar el 
+# repositorio se debe de hacer un "npm install"

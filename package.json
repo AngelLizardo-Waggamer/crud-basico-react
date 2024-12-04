@@ -1,0 +1,24 @@
+{
+  "name": "crud-basico-react",
+  "version": "1.0.0",
+  "description": "Mi primera aplicación React con Node.JS e implementaciones de base de datos NoSQL con MongoDB",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AngelLizardo-Waggamer/crud-basico-react.git"
+  },
+  "keywords": [],
+  "author": "Angel Lizardo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AngelLizardo-Waggamer/crud-basico-react/issues"
+  },
+  "homepage": "https://github.com/AngelLizardo-Waggamer/crud-basico-react#readme",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
