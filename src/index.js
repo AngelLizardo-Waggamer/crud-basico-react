@@ -1,4 +1,8 @@
-import app from './app.js'
+import app from './app.js';
+import { connectDB } from './db.js';
+
+// Conectarse a la base de datos de mongoDB
+connectDB();
 
 // La función .listen() hace que el servidor reciba requests en el puerto especificado
 app.listen(4000);

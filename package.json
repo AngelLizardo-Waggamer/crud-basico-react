@@ -21,6 +21,7 @@
   "homepage": "https://github.com/AngelLizardo-Waggamer/crud-basico-react#readme",
   "dependencies": {
     "express": "^4.21.1",
+    "mongoose": "^8.8.4",
     "morgan": "^1.10.0"
   },
   "devDependencies": {
