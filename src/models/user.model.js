@@ -10,7 +10,7 @@ import mongoose from "mongoose";
  * . required es para indicar que es un dato obligatorio en todo objeto
  * . unique indica que el valor debe de ser unico para cada objeto
  */
-const userSchema = mongoose.Schema({
+const userSchema = new mongoose.Schema({
     username : {
         type: String,
         required: true,
@@ -27,6 +27,8 @@ const userSchema = mongoose.Schema({
         required: true,
     }, 
 
+}, {
+    timestamps: true
 });
 
 export default mongoose.model('User', userSchema);
