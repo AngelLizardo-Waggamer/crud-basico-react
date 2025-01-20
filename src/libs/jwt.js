@@ -16,10 +16,10 @@ export function createAccessToken(payload) {
             payload,
             TOKEN_SECRET,
             {
-                expiresIn: "1d"
+                expiresIn: "1d" // Expiracion: 1d -> 1 dia
             },
             (err, token) => {
-                if(err) reject(err);
+                if(err) reject(err); // Si hay un error rechazar el token con el codigo de error pertinente
                 resolve(token);
             });
     }})
